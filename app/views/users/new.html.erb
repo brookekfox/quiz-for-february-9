@@ -1,0 +1,11 @@
+<h1>Add a User!</h1>
+
+<!-- generally no equal sign for a loop, but the exception is for forms -->
+<!-- it is rails convention to loop through a form with an f -->
+<%= form_for @user do |f| %>
+	Username: <%= f.text_field :username %><br>
+	Email: <%= f.text_field :email %><br>
+	Date of Birth: <%= f.date_field :birthdate %><br>
+
+	<%= f.submit 'Add this user!' %>
+<% end %> <!-- you don't need an equal sign in the end tag -->
