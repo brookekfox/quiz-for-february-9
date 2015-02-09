@@ -1,9 +1,9 @@
-<h1>Edit a User</h1>
+<h1>Edit <%= @user.username %>!</h1>
 
 <%= form_for @user do |f| %>
-	Username: <%= f.text_field :username %><br>
-	Email: <%= f.text_field :email %><br>
-	Date of Birth: <%= f.date_field :birthdate %><br><br>
+	<p>Username: <%= f.text_field :username %></p><br>
+	<p>Email: <%= f.text_field :email %></p><br>
+	<p>Date of Birth: <%= f.date_field :birthdate %></p><br><br>
 
 	<%= f.submit "Edit this user!" %>
 <% end %>

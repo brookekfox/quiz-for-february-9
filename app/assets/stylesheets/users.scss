@@ -28,6 +28,12 @@ th {
 }
 
 p {
+  font-size: 16pt;
+  color: #f0f0f0;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+.link {
   border: 6px double #f0f0f0;
   border-radius: 10px;
   background-color: rgba(20,23,204,.2);
@@ -36,4 +42,8 @@ p {
   padding: 2%;
   font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
   width: 15%;
+}
+
+.sort-users {
+  display: none;
 }

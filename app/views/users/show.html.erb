@@ -1,0 +1,9 @@
+<h1><%= @user.username %></h1>
+
+<p>Email: <%= @user.email %></p>
+<p>Date of birth: <%= @user.birthdate %></p>
+
+<br><br>
+<p class="link"><%= link_to 'Delete this user!', @user, method: :delete, data: {confirm: "Are you sure?"} %></p><br>
+<p class="link"><%= link_to 'Edit this user!', edit_user_path(@user) %></p><br>
+<p class="link"><%= link_to 'Back', users_path %></p>

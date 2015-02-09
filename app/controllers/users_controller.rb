@@ -2,6 +2,7 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.all
+		# @users.sort_by! {|a| a[:username].downcase}
 	end
 
 	def new
