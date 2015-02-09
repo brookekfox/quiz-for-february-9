@@ -1,3 +1,39 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url('http://www.psdgraphics.com/file/colorful-triangles-background.jpg');
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 60pt;
+  color: #f0f0f0;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+table {
+  border: 6px double #f0f0f0;
+  border-radius: 10px;
+  background-color: rgba(20,23,204,.5);
+  width: 80%;
+  margin: 10% auto;
+  padding: 2%;
+  text-align: left;
+  vertical-align: bottom;
+  color: #f0f0f0;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+th {
+  font-size: 24pt;
+}
+
+p {
+  border: 6px double #f0f0f0;
+  border-radius: 10px;
+  background-color: rgba(20,23,204,.2);
+  font-size: 14pt;
+  color: #f0f0f0;
+  padding: 2%;
+  font-family: "Anonymous Pro", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  width: 15%;
+}

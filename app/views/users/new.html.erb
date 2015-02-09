@@ -5,7 +5,7 @@
 <%= form_for @user do |f| %>
 	Username: <%= f.text_field :username %><br>
 	Email: <%= f.text_field :email %><br>
-	Date of Birth: <%= f.date_field :birthdate %><br>
+	Date of Birth: <%= f.date_field :birthdate %><br><br>
 
 	<%= f.submit 'Add this user!' %>
 <% end %> <!-- you don't need an equal sign in the end tag -->
